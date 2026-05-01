@@ -10,5 +10,11 @@ The User Data API allows external applications to retrieve user profile informat
 
 The API returns data in JSON format and is intended for integration with web applications, reporting tools, and internal business systems.
 
-# 2. How to Access it
+# 2. Use Cases
+- This API can be used to:
+- Retrieve a list of registered users
+- View detailed information for a specific user
+- Support testing for user data integration
+
+# How to Access it
 # 3. Limitation
