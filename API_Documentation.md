@@ -1,5 +1,15 @@
 # Table of Contents
 * [1. API Overview](https://github.com/astry-ec/API_Documentation_JSONPlaceHolder/blob/main/API_Documentation.md#1-api-overview)
+* [2. Use Cases](https://github.com/astry-ec/API_Documentation_JSONPlaceHolder/blob/main/API_Documentation.md#2-use-cases)
+* [3. Authorizations](https://github.com/astry-ec/API_Documentation_JSONPlaceHolder/blob/main/API_Documentation.md#3-authorizations)
+* [4. Available Endpoints](https://github.com/astry-ec/API_Documentation_JSONPlaceHolder/blob/main/API_Documentation.md#4-available-endpoints)
+      - [/posts](https://github.com/astry-ec/API_Documentation_JSONPlaceHolder/blob/main/API_Documentation.md#posts)
+      - [/comments](https://github.com/astry-ec/API_Documentation_JSONPlaceHolder/blob/main/API_Documentation.md#comments)
+      - [/albums](https://github.com/astry-ec/API_Documentation_JSONPlaceHolder/blob/main/API_Documentation.md#albums)
+      - [/photos](https://github.com/astry-ec/API_Documentation_JSONPlaceHolder/blob/main/API_Documentation.md#photos)
+      - [/todos](https://github.com/astry-ec/API_Documentation_JSONPlaceHolder/blob/main/API_Documentation.md#todos)
+      - [/users](https://github.com/astry-ec/API_Documentation_JSONPlaceHolder/blob/main/API_Documentation.md#users)
+* [6. API Postman Collection](https://github.com/astry-ec/API_Documentation_JSONPlaceHolder/blob/main/API_Documentation.md#5-api-postman-collection)
 
 
 # 1. API Overview
@@ -246,12 +256,12 @@ print(response.json())
 <img width="750" height="931" alt="image" src="https://github.com/user-attachments/assets/d80e293c-45cb-4a69-a60d-d9c56a0e8295" />
 
 
-# 4. Limitations
+# 5. Limitations
 
 - Data created using POST requests is not persisted.
 - Authentication and authorization are not required.
 - The API is intended for testing and prototyping purposes only.
 
-# 5. API Postman Collection 
+# 6. API Postman Collection 
 
-
+[Postman Collection](https://github.com/astry-ec/API_Documentation_JSONPlaceHolder/blob/main/postman/User%20API%20Collection.postman_collection.json)
