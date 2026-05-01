@@ -196,5 +196,35 @@ Example data:
     }
 ]
 ```
-# How to Access it
+# 3. How to Access it
+## Non-Developers
+
+- Access directly from a web browser
+
+<img width="918" height="1026" alt="image" src="https://github.com/user-attachments/assets/7ed7aa1f-35a0-4801-b085-30ff001c7c69" />
+
+## Developers
+
+- Access from terminal/cmd
+```text
+curl https://jsonplaceholder.typicode.com/users
+```
+
+<img width="774" height="939" alt="image" src="https://github.com/user-attachments/assets/f776f3a6-c879-4ce6-841b-a2d6fcf05e7e" />
+
+
+- Access directly from programming language
+
+  example from python
+
+```text
+import requests
+
+url = "https://jsonplaceholder.typicode.com/users"
+response = requests.get(url)
+
+print(response.json())
+```
+
+
 # 3. Limitation
