@@ -4,7 +4,7 @@ Base URL:
 
 ```text
 https://jsonplaceholder.typicode.com
-
+```
 
 The User Data API allows external applications to retrieve user profile information from the system. It can be used by other applications to display user details, sync customer records, or validate user information.
 
