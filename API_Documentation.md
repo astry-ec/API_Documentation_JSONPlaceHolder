@@ -16,5 +16,7 @@ The API returns data in JSON format and is intended for integration with web app
 - View detailed information for a specific user
 - Support testing for user data integration
 
+# 3. Available Endpoints
+
 # How to Access it
 # 3. Limitation
