@@ -1,6 +1,6 @@
 # 1. API Overview
 
-Base URL:
+**Base URL:**
 
 ```text
 https://jsonplaceholder.typicode.com
