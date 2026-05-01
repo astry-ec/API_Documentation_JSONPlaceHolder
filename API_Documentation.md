@@ -9,7 +9,8 @@
       - [/photos](https://github.com/astry-ec/API_Documentation_JSONPlaceHolder/blob/main/API_Documentation.md#photos)
       - [/todos](https://github.com/astry-ec/API_Documentation_JSONPlaceHolder/blob/main/API_Documentation.md#todos)
       - [/users](https://github.com/astry-ec/API_Documentation_JSONPlaceHolder/blob/main/API_Documentation.md#users)
-* [6. API Postman Collection](https://github.com/astry-ec/API_Documentation_JSONPlaceHolder/blob/main/API_Documentation.md#5-api-postman-collection)
+* [5. Limitations](https://github.com/astry-ec/API_Documentation_JSONPlaceHolder/blob/main/API_Documentation.md#5-limitations)
+* [6. API Postman Collection]([https://github.com/astry-ec/API_Documentation_JSONPlaceHolder/blob/main/API_Documentation.md#5-api-postman-collection](https://github.com/astry-ec/API_Documentation_JSONPlaceHolder/blob/main/API_Documentation.md#6-api-postman-collection))
 
 
 # 1. API Overview
