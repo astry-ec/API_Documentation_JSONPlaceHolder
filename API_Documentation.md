@@ -20,7 +20,7 @@ The API returns data in JSON format and is intended for integration with web app
 
 There are 6 available endpoints which serve different purpose
 
-    ## a. /posts
+## a. /posts
 
 ```text
 GET https://jsonplaceholder.typicode.com/posts
