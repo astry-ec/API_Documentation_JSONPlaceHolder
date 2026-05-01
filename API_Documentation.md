@@ -20,7 +20,7 @@ The API returns data in JSON format and is intended for integration with web app
 
 There are 6 available endpoints which serve different purpose
 
-## a. /posts
+## /posts
 
 ```text
 GET https://jsonplaceholder.typicode.com/posts
@@ -38,7 +38,7 @@ Example data:
     }
 ]
 ```
-    ## b. /comments
+## /comments
     
 ```text
 GET https://jsonplaceholder.typicode.com/comments
@@ -57,7 +57,7 @@ Example data:
     }
 ]
 ```
-    ## c. /albums
+## /albums
 
 ```text
 GET https://jsonplaceholder.typicode.com/albums
@@ -79,7 +79,7 @@ Example data:
     }
 ]
 ```
-    ## d. /photos
+## /photos
 
 ```text
 GET https://jsonplaceholder.typicode.com/photos
@@ -105,7 +105,7 @@ Example data:
     }
 ]
 ```
-    ## e. /todos
+## /todos
 
 ```text
 GET https://jsonplaceholder.typicode.com/todos
@@ -128,7 +128,7 @@ Example data:
         "completed": false
 ]
 ```
-    ## f. /users
+## /users
 
 ```text
 GET https://jsonplaceholder.typicode.com/users
