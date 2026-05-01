@@ -20,6 +20,16 @@ The API returns data in JSON format and is intended for integration with web app
 
 There are 6 available endpoints which serve different purpose
 
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET    | /posts   | Retrieve all user's posting |
+| GET    | /comments | Retrieve all comment of user in a postin |
+| GET    | /albums   | Retrieve all album |
+| GET    | /photos | Retrieve all photos |
+| GET    | /todos | Retrieve all user's to do list |
+| GET    | /users  | Retrieve all users |
+
+
 ## /posts
 
 ```text
