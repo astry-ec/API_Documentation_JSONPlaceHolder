@@ -6,7 +6,7 @@
 https://jsonplaceholder.typicode.com
 ```
 
-The User Data API allows external applications to retrieve user profile information from the system. It can be used by other applications to display user details, sync customer records, or validate user information.
+The User Data API allows external applications to retrieve user profile information from the system of **ABC Blogging Website**. It can be used by other applications to display user details, sync customer records, or validate user information.
 
 The API returns data in JSON format and is intended for integration with web applications, reporting tools, and internal business systems.
 
@@ -20,13 +20,14 @@ The API returns data in JSON format and is intended for integration with web app
 
 There are 6 available endpoints which serve different purpose
 
-## a. /posts
+    ## a. /posts
 
 ```text
 GET https://jsonplaceholder.typicode.com/posts
 ```
-This endpoint provides data about user posting
+This endpoint provides data about user's posting in the website
 
+Example data:
 ```text
 [
     {
@@ -37,7 +38,153 @@ This endpoint provides data about user posting
     }
 ]
 ```
+    ## b. /comments
+    
+```text
+GET https://jsonplaceholder.typicode.com/comments
+```
+This endpoint provides data about user's comment from each posting available in the website
 
+Example data:
+```text
+[
+    {
+        "postId": 1,
+        "id": 1,
+        "name": "id labore ex et quam laborum",
+        "email": "Eliseo@gardner.biz",
+        "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+    }
+]
+```
+    ## c. /albums
 
+```text
+GET https://jsonplaceholder.typicode.com/albums
+```
+This endpoint provides album's title of each user id
+
+Example data:
+```text
+[
+    {
+        "userId": 1,
+        "id": 1,
+        "title": "quidem molestiae enim"
+    },
+    {
+        "userId": 1,
+        "id": 2,
+        "title": "sunt qui excepturi placeat culpa"
+    }
+]
+```
+    ## d. /photos
+
+```text
+GET https://jsonplaceholder.typicode.com/photos
+```
+This endpoint provides URL link of a photos and the album id where it is located
+
+Example data:
+```text
+[
+    {
+        "albumId": 1,
+        "id": 1,
+        "title": "accusamus beatae ad facilis cum similique qui sunt",
+        "url": "https://via.placeholder.com/600/92c952",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    },
+    {
+        "albumId": 1,
+        "id": 2,
+        "title": "reprehenderit est deserunt velit ipsam",
+        "url": "https://via.placeholder.com/600/771796",
+        "thumbnailUrl": "https://via.placeholder.com/150/771796"
+    }
+]
+```
+    ## e. /todos
+
+```text
+GET https://jsonplaceholder.typicode.com/todos
+```
+This endpoint provides to do list of each user id
+
+Example data:
+```text
+[
+    {
+        "userId": 1,
+        "id": 1,
+        "title": "delectus aut autem",
+        "completed": false
+    },
+    {
+        "userId": 1,
+        "id": 2,
+        "title": "quis ut nam facilis et officia qui",
+        "completed": false
+]
+```
+    ## f. /users
+
+```text
+GET https://jsonplaceholder.typicode.com/users
+```
+This endpoint provides list of users of the website
+
+Example data:
+```text
+[
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "Bret",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "Romaguera-Crona",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Ervin Howell",
+        "username": "Antonette",
+        "email": "Shanna@melissa.tv",
+        "address": {
+            "street": "Victor Plains",
+            "suite": "Suite 879",
+            "city": "Wisokyburgh",
+            "zipcode": "90566-7771",
+            "geo": {
+                "lat": "-43.9509",
+                "lng": "-34.4618"
+            }
+        },
+        "phone": "010-692-6593 x09125",
+        "website": "anastasia.net",
+        "company": {
+            "name": "Deckow-Crist",
+            "catchPhrase": "Proactive didactic contingency",
+            "bs": "synergize scalable supply-chains"
+        }
+    }
+]
+```
 # How to Access it
 # 3. Limitation
