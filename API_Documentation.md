@@ -20,7 +20,11 @@ The API returns data in JSON format and is intended for integration with web app
 - View detailed information for a specific user
 - Support testing for user data integration
 
-# 3. Available Endpoints
+# 3. Authorizations
+
+This API doesn't need user/token authorizations
+
+# 4. Available Endpoints
 
 There are 6 available endpoints which serve different purpose
 
@@ -52,6 +56,7 @@ Example data:
     }
 ]
 ```
+
 ## /comments
     
 ```text
@@ -71,6 +76,7 @@ Example data:
     }
 ]
 ```
+
 ## /albums
 
 ```text
@@ -93,6 +99,7 @@ Example data:
     }
 ]
 ```
+
 ## /photos
 
 ```text
@@ -119,6 +126,7 @@ Example data:
     }
 ]
 ```
+
 ## /todos
 
 ```text
@@ -142,6 +150,7 @@ Example data:
         "completed": false
 ]
 ```
+
 ## /users
 
 ```text
@@ -200,7 +209,9 @@ Example data:
     }
 ]
 ```
+
 # 3. How to Access it
+
 ## Non-Developers
 
 - **Access directly from a web browser**
@@ -235,4 +246,12 @@ print(response.json())
 <img width="750" height="931" alt="image" src="https://github.com/user-attachments/assets/d80e293c-45cb-4a69-a60d-d9c56a0e8295" />
 
 
-# 3. Limitation
+# 4. Limitations
+
+- Data created using POST requests is not persisted.
+- Authentication and authorization are not required.
+- The API is intended for testing and prototyping purposes only.
+
+# 5. API Postman Collection 
+
+
