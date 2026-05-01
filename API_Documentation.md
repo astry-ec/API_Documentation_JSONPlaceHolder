@@ -1,4 +1,4 @@
-# Table of Contents
+### Table of Contents
 * [1. API Overview](https://github.com/astry-ec/API_Documentation_JSONPlaceHolder/blob/main/API_Documentation.md#1-api-overview)
 
 
