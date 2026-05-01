@@ -1,3 +1,7 @@
+# Table of Contents
+* [1. API Overviem](# 1. API Overview)
+
+
 # 1. API Overview
 
 **Base URL:**
@@ -199,13 +203,13 @@ Example data:
 # 3. How to Access it
 ## Non-Developers
 
-- Access directly from a web browser
+- **Access directly from a web browser**
 
 <img width="918" height="1026" alt="image" src="https://github.com/user-attachments/assets/7ed7aa1f-35a0-4801-b085-30ff001c7c69" />
 
 ## Developers
 
-- Access from terminal/cmd
+- **Access from terminal/cmd**
 ```text
 curl https://jsonplaceholder.typicode.com/users
 ```
@@ -213,7 +217,7 @@ curl https://jsonplaceholder.typicode.com/users
 <img width="774" height="939" alt="image" src="https://github.com/user-attachments/assets/f776f3a6-c879-4ce6-841b-a2d6fcf05e7e" />
 
 
-- Access directly from programming language
+- **Access directly from programming language**
 
   example from python
 
@@ -225,6 +229,10 @@ response = requests.get(url)
 
 print(response.json())
 ```
+
+- **Access from postman**
+
+<img width="750" height="931" alt="image" src="https://github.com/user-attachments/assets/d80e293c-45cb-4a69-a60d-d9c56a0e8295" />
 
 
 # 3. Limitation
